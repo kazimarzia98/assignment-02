@@ -7,11 +7,15 @@
     padding: 0;
 }
 
+body{
+    background-color: black;
+}
+
 /* header section */
 
 
 header {
-    background-color: black;
+    /* background-color: black; */
     height: 780px;
     /* border: 1px solid red; */
 }
@@ -72,14 +76,14 @@ header {
 .nav-icon {
     display: none;
 
-    
+
 }
 
 /* main section - left */
 
 #main-section {
     width: 80%;
-    margin:50px auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -126,7 +130,7 @@ header {
     position: relative;
 }
 
-.right-side-img{
+.right-side-img {
     /* position: relative; */
 }
 
@@ -142,17 +146,19 @@ header {
     position: absolute;
     padding: 10px 0px 15px 15px;
 }
-.upper-box-title{
+
+.upper-box-title {
     font-size: 50px;
     font-weight: 600;
 }
-.upper-box-des{
-    font-size: 12px; 
+
+.upper-box-des {
+    font-size: 12px;
     font-weight: 100;
     font-family: Inter;
 }
 
-.lower-box{
+.lower-box {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -166,4 +172,57 @@ header {
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+/* main section */
+
+
+
+.habit-section {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    /* border: 1px solid red; */
+    color: rgb(255, 255, 255);
+}
+
+.habit-section-title {
+    text-align: center;
+}
+
+.habit-section-title h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.habit-section-title p {
+    font-family: Inter;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habit-img-section{
+    margin-top: 50px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.habit-img-section img{
+    border-radius: 50%;
+}
+
+.habit-img-section h5{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.habit-img-section p{
+    font-family: Inter;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
 }

@@ -44,4 +44,27 @@
     .lower-box{
         margin-left: 0px;
     }
+
+    .habit-section{
+        margin-top: 0px;
+    }
+
+    .habit-section-title h1{
+        font-size: 30px;
+
+    }
+
+    .habit-section-title p{
+        font-size: 10px;
+    }
+
+    .habit-img-section{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .habit-img-section p{
+        font-size: 10px;
+    }
 }
