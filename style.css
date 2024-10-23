@@ -12,15 +12,16 @@
 
 header {
     background-color: black;
-    height: 700px;
-    border: 1px solid red;
+    height: 780px;
+    /* border: 1px solid red; */
 }
 
 .header-section {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     /* padding: 60px 80px 50px 70px; */
     width: 80%;
-    margin: 70px auto;
+    margin: auto;
+    padding-top: 30px;
 
 }
 
@@ -70,22 +71,25 @@ header {
 
 .nav-icon {
     display: none;
+
+    
 }
 
 /* main section - left */
 
 #main-section {
     width: 80%;
-    margin: auto;
+    margin:50px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: auto;
 }
 
 .left-side {
     width: 40%;
-    border: 1px solid red;
-    height: auto;
+    /* border: 1px solid red; */
+    /* height: auto; */
 }
 
 .left-side h2 {
@@ -101,11 +105,11 @@ header {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 16px;
 }
 
 .left-side-button button {
-    margin-top: 15px;
+    margin-top: 30px;
     border: 1px solid rgb(255, 255, 255);
     background-color: transparent;
     border-radius: 42px;
@@ -117,6 +121,49 @@ header {
 
 /* right side */
 
+.right-side {
+    /* border: 1px solid yellow; */
+    position: relative;
+}
+
 .right-side-img{
-    
+    /* position: relative; */
+}
+
+.upper-box {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 40%;
+    margin-top: -400px;
+    margin-left: 250px;
+    position: absolute;
+    padding: 10px 0px 15px 15px;
+}
+.upper-box-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.upper-box-des{
+    font-size: 12px; 
+    font-weight: 100;
+    font-family: Inter;
+}
+
+.lower-box{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 40%;
+    margin-top: -150px;
+    margin-left: -100px;
+    position: absolute;
+    padding: 10px 15px 15px 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }

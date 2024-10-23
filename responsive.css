@@ -1,9 +1,47 @@
 @media screen and (max-width:576px){
+    header{
+        height: auto;
+    }
+    
     .nav-icon{
         display: block;
     }
 
     .nav-menu{
         display: none;
+    }
+
+    #main-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side {
+        width: 90%;
+        /* border: 1px solid red; */
+        /* height: auto; */
+        margin: 0px 15px 10px 15px;
+    }
+
+    .left-side h2 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    .right-side{
+        margin-top: 40px;
+    }
+
+    .upper-box{
+        margin-top: -500px;
+    }
+
+    .lower-box{
+        margin-left: 0px;
     }
 }
