@@ -225,4 +225,62 @@ header {
     font-size: 13px;
     color: rgba(255, 255, 255, 0.5);
     padding-top: 5px;
+    margin-bottom: 50px;
 }
+
+/* mile count section */
+
+.mile-count-section{
+    /* border: 1px solid white; */
+    color:white;
+    width: 70%;
+    margin:  auto;
+    padding-top: 50px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    background-color: #222222;
+    border-radius: 18px;
+
+}
+
+.mile-count-des{
+    width: 30%;
+    /* border: 1px solid red; */
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.mile-count-des h2{
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.mile-count-des p{
+    font-family: Inter;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
+    line-height: 15px;
+
+}
+
+.mile-count-img{
+    /* border: 1px solid yellow; */
+    width: 30%;
+    background-image: url(./images/run.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+/* .mile-count-img img{
+    width: 366px;
+    height: 310px;
+
+} */

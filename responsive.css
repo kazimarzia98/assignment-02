@@ -67,4 +67,35 @@
     .habit-img-section p{
         font-size: 10px;
     }
+
+    .mile-count-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        height: auto;
+    }
+
+    .mile-count-des{
+        width: 80%;
+margin: 15px 20px 10px 25px;
+    }
+
+    .mile-count-des h2{
+        font-size: 30px;
+    }
+
+    .mile-count-des p{
+        font-size: 10px;
+    }
+
+
+
+    .mile-count-img{
+        width: 90%;
+        margin: 20px 10px 20px 18px;   
+        
+
+    }
 }
+
