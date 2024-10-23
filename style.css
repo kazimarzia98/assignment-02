@@ -279,8 +279,116 @@ header {
     margin-bottom: 50px;
 }
 
-/* .mile-count-img img{
-    width: 366px;
-    height: 310px;
+/* BMI section */
 
-} */
+.bmi-section{
+    /* margin-top:30px; */
+    /* border: 1px solid red; */
+    width: 35%;
+    margin: 30px auto;
+    
+}
+
+.bmi-section h1{
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+}
+
+.bmi-section p{
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 18px;
+    padding-top: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.calulate-chart{
+    background-color: #222222;
+}
+
+.calulate-chart-box{
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding:  30px 15px 20px 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.calculate-table-field{
+    /* border: 1px solid green; */
+    width: 40%;
+}
+
+.calulate-chart-box table{
+    margin-top: 20px;
+    height: auto;
+}
+
+
+
+.calculate-table td{
+
+    font-size: 14px;
+    font-weight: 200;
+    /* padding-left: 20px; */
+    
+}
+
+
+.calculate-table tr,td{
+    font-size: 14px;
+}
+
+.calculate-table ,th,td{
+    border:  solid rgba(255, 255, 255, 0.1);
+    font-family: Inter;
+    border-collapse: collapse ;
+    padding: 8px 8px 8px 20px;
+}
+
+.calculate-bmi{
+/* border: 1px solid yellow; */
+width: 40%;
+}
+
+.calculate-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.calculate-input input{
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top:10px ;
+    margin-right: 10px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.secnd-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.calculate-bmi h2{
+    font-family: Inter;
+    font-size: 30px;
+}
+
+.calculate-bmi p{
+    font-size: 13px;
+    font-family: Inter;
+    color: rgba(255, 255, 255, 0.5);
+
+}
