@@ -208,6 +208,15 @@ header {
     display: flex;
     flex-direction: row;
     text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+.habit-img-section div{
+    /* border: 1px solid green; */
+    padding: 40px 15px 30px 20px;
+
+    
 }
 
 .habit-img-section img {
