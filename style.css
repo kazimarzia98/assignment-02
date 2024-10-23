@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -202,7 +202,7 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.habit-img-section{
+.habit-img-section {
     margin-top: 50px;
     /* border: 1px solid yellow; */
     display: flex;
@@ -210,17 +210,17 @@ header {
     text-align: center;
 }
 
-.habit-img-section img{
+.habit-img-section img {
     border-radius: 50%;
 }
 
-.habit-img-section h5{
+.habit-img-section h5 {
     font-family: Inter;
     font-size: 18px;
     font-weight: 500;
 }
 
-.habit-img-section p{
+.habit-img-section p {
     font-family: Inter;
     font-size: 13px;
     color: rgba(255, 255, 255, 0.5);
@@ -230,11 +230,11 @@ header {
 
 /* mile count section */
 
-.mile-count-section{
+.mile-count-section {
     /* border: 1px solid white; */
-    color:white;
+    color: white;
     width: 70%;
-    margin:  auto;
+    margin: auto;
     padding-top: 50px;
     padding-left: 80px;
     display: flex;
@@ -246,20 +246,20 @@ header {
 
 }
 
-.mile-count-des{
+.mile-count-des {
     width: 30%;
     /* border: 1px solid red; */
     height: auto;
     margin-bottom: 50px;
 }
 
-.mile-count-des h2{
+.mile-count-des h2 {
     font-family: Inter;
     font-size: 58px;
     font-weight: 900;
 }
 
-.mile-count-des p{
+.mile-count-des p {
     font-family: Inter;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.5);
@@ -268,7 +268,7 @@ header {
 
 }
 
-.mile-count-img{
+.mile-count-img {
     /* border: 1px solid yellow; */
     width: 30%;
     background-image: url(./images/run.jpg);
@@ -281,15 +281,15 @@ header {
 
 /* BMI section */
 
-.bmi-section{
+.bmi-section {
     /* margin-top:30px; */
     /* border: 1px solid red; */
     width: 35%;
     margin: 30px auto;
-    
+
 }
 
-.bmi-section h1{
+.bmi-section h1 {
     font-family: Inter;
     font-size: 38px;
     font-weight: 900;
@@ -297,7 +297,7 @@ header {
 
 }
 
-.bmi-section p{
+.bmi-section p {
     font-family: Inter;
     font-size: 13px;
     line-height: 18px;
@@ -305,88 +305,91 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.calulate-chart{
+.calulate-chart {
     background-color: #222222;
 }
 
-.calulate-chart-box{
+.calulate-chart-box {
     width: 75%;
     margin: auto;
     /* border: 1px solid red; */
-    padding:  30px 15px 20px 30px;
+    padding: 30px 15px 20px 30px;
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+
 }
 
-.calculate-table-field{
+.calculate-table-field {
     /* border: 1px solid green; */
     width: 40%;
 }
 
-.calulate-chart-box table{
+.calulate-chart-box table {
     margin-top: 20px;
     height: auto;
 }
 
 
 
-.calculate-table td{
+.calculate-table td {
 
     font-size: 14px;
     font-weight: 200;
     /* padding-left: 20px; */
-    
+
 }
 
 
-.calculate-table tr,td{
+.calculate-table tr,
+td {
     font-size: 14px;
 }
 
-.calculate-table ,th,td{
-    border:  solid rgba(255, 255, 255, 0.1);
+.calculate-table,
+th,
+td {
+    border: solid rgba(255, 255, 255, 0.1);
     font-family: Inter;
-    border-collapse: collapse ;
+    border-collapse: collapse;
     padding: 8px 8px 8px 20px;
 }
 
-.calculate-bmi{
-/* border: 1px solid yellow; */
-width: 40%;
+.calculate-bmi {
+    /* border: 1px solid yellow; */
+    width: 40%;
 }
 
-.calculate-input{
+.calculate-input {
     display: flex;
     flex-direction: column;
 }
 
-.calculate-input input{
+.calculate-input input {
     padding: 10px 10px 10px 10px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
-    margin-top:10px ;
+    margin-top: 10px;
     margin-right: 10px;
 }
 
-.first-row{
+.first-row {
     display: flex;
     flex-direction: row;
 }
 
-.secnd-row{
+.secnd-row {
     display: flex;
     flex-direction: row;
 }
 
-.calculate-bmi h2{
+.calculate-bmi h2 {
     font-family: Inter;
     font-size: 30px;
 }
 
-.calculate-bmi p{
+.calculate-bmi p {
     font-size: 13px;
     font-family: Inter;
     color: rgba(255, 255, 255, 0.5);
@@ -395,37 +398,87 @@ width: 40%;
 
 /* team sec */
 
-.team-section{
+.team-section {
     margin-top: 40px;
 }
 
-.team-intro{
-    border: 1px solid red;
-    margin-top: 50px ;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    /* border: 1px solid red; */
+    padding: 20px;
     width: 75%;
-    margin: auto;
-    border-radius: 16px;
-}
-.team-intro-box{
-    border: 1px solid yellow;
-    /* border-radius: 16px; */
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
     
-    width: auto;
-    margin: auto;
-
-
 }
 
-.team-intro-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6 {
+    /* border: 1px solid yellow; */
+    border-radius: 18px;
+    padding: 20px;
+    color: white;
+    width: 326px;
+    height: 300px;
+    
 }
 
-.team-intro-row img{
-    width: 300px;
-    height: 280px;
-    border-radius: 16px;
-    margin: 8px 8px 8px 8px;
+.grid-item1 {
+    background-image: url(./images/trainer1.png);
+    background-size: cover;
+    opacity: 0.7;
 }
 
+.grid-item2 {
+    background-image: url(./images/trainer2.png);
+    background-size: cover;
+
+    opacity: 0.7;
+}
+
+.grid-item3 {
+    background-image: url(./images/trainer3.png);
+    background-size: cover;
+
+    opacity: 0.7;
+}
+
+.grid-item4 {
+    background-image: url(./images/trainer4.png);
+    background-size: cover;
+    background-position: center;
+
+    opacity: 0.7;
+}
+
+.grid-item5 {
+    background-image: url(./images/trainer5.png);
+    background-size: cover;
+
+    opacity: 0.7;
+}
+
+.grid-item6 {
+    background-image: url(./images/trainer6.png);
+    background-size: cover;
+
+    opacity: 0.7;
+}
+
+.grid-item1 h2,
+.grid-item2 h2,
+.grid-item3 h2,
+.grid-item4 h2,
+.grid-item5 h2,
+.grid-item6 h2 {
+    font-family: Inter;
+    /* opacity: 1; */
+    padding-top: 240px;
+}
