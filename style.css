@@ -482,3 +482,21 @@ td {
     /* opacity: 1; */
     padding-top: 240px;
 }
+
+/* footer */
+
+.footer-section{
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.footer-section-box{
+    color: white;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+}
