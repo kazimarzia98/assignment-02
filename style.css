@@ -396,6 +396,63 @@ td {
 
 }
 
+/* membership */
+
+.membership-section {
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+    /* border: 1px solid red; */
+}
+
+.membership-section-title {
+    color: white;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.grid-membership {
+    color: white;
+    /* border: 1px solid yellow; */
+    margin: 0px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-family: Inter;
+
+}
+
+.grid-membership-item1,
+.grid-membership-item2,
+.grid-membership-item3 {
+    /* border: 1px solid green; */
+    padding: 15px 15px 15px 15px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.grid-membership-item1 h3,
+.grid-membership-item2 h3,
+.grid-membership-item3 h3 {
+    font-size: 30px;
+}
+
+.grid-membership-item1 li,
+.grid-membership-item2 li,
+.grid-membership-item3 li{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
 /* team sec */
 
 .team-section {
@@ -412,7 +469,7 @@ td {
     margin: 30px auto;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
-    
+
 }
 
 .grid-item1,
@@ -427,7 +484,7 @@ td {
     color: white;
     width: 326px;
     height: 300px;
-    
+
 }
 
 .grid-item1 {
@@ -485,16 +542,16 @@ td {
 
 /* footer */
 
-.footer-section{
+.footer-section {
     /* border: 1px solid red; */
     width: 75%;
     margin: auto;
     padding-bottom: 50px;
 }
 
-.footer-section-box{
+.footer-section-box {
     color: white;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
